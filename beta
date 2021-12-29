@@ -1,0 +1,12 @@
+var elemen = document.createElement("div");
+elemen.id = "Hack_panel";
+elemen.style.position = "fixed";
+elemen.style.width = "700px";
+elemen.style.height = "500px";
+elemen.style.top = "50%";
+elemen.style.left = "50%";
+elemen.style.transform = "translate(-50%, -50%)";
+elemen.style.background = "black";
+elemen.style.borderRadius = "10px";
+elemen.style.boxShadow = "0 0 10px 10px white";
+document.body.appendChild(elemen);
